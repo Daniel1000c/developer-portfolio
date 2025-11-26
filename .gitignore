@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# TailwindCSS
+# (common build outputs depending on your setup)
+*.css.map
+tailwind.config.js.temp
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional: if using PostCSS
+.postcssrc.* 

@@ -1,0 +1,25 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Daniel1000c/developer-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/Daniel1000c/developer-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel1000c/developer-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
